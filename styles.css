@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("healthcare-professionals-800x450.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 25px solid blue; */
+}
+
+.contentouter {
+  margin-left: 15%;
+  margin-top: 8%;
+  margin-right: 60%;
+  margin-bottom: 8%;
+}
+
+.ctbmt,
+.ctb,
+.mdcn,
+.trnng {
+  display: inline;
+}
+
+.wsbs {
+  color: white;
+  font-weight: normal;
+  font-size: large;
+  font-style: italic;
+}
+
+.ctbmt {
+  /* font-size: 50px; */
+  font-size: 3.125rem;
+  font-weight: 400;
+  color: white;
+}
+
+.mdcn {
+  font-weight: 800;
+}
+
+.txt1 {
+  margin-top: 7%;
+  color: white;
+  font-size: large;
+}
+
+button {
+  display: block;
+}
+
+.name {
+  margin-top: 7%;
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  color: rgba(44, 41, 41, 0.964);
+  border: none;
+}
+
+.phone {
+  margin-top: 2.33%;
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  color: rgba(44, 41, 41, 0.964);
+  border: none;
+}
+
+.txt2 {
+  margin-top: 7px;
+  color: white;
+}
+
+.tckt {
+  color: white;
+  background-color: seagreen;
+  margin-top: 20px;
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.sqr,
+.txt2 {
+  display: inline;
+  margin-top: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("bg_mobile.jpg");
+  }
+}
